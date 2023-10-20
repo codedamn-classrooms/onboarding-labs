@@ -1,3 +1,7 @@
 tabs: ["main.cpp"]
-terminals: ["g++ main.cpp -o main.out && ./main.out "]
+terminals:
+  [
+    "bun add vitest@0.32.2 jsdom@22.1.0 @testing-library/jest-dom@5.16.5 --dev",
+    "g++ main.cpp -o main.out && ./main.out ",
+  ]
 run-button: g++ main.cpp -o main.out && ./main.out
