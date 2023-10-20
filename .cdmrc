@@ -2,6 +2,6 @@ tabs: ["index.js"]
 run-button: node index.js
 terminals:
   [
-    "node index.js",
     "bun add vitest@0.32.2 jsdom@22.1.0 @testing-library/jest-dom@5.16.5 --dev",
+    "node index.js",
   ]
